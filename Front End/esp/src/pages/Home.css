@@ -1,0 +1,49 @@
+.network-status-circle-red {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:red;
+}
+
+.network-status-circle-green {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:green;
+}
+
+.height-line{
+    border-top: 1px solid !important;
+}
+
+.thermometerOutlineBlue{
+    color: rgb(0, 169, 254); 
+
+}
+
+.thermometerOutlineRed{
+    color: rgb(254, 0, 17); 
+}
+
+.faDroplet{
+    color: rgb(0, 169, 254); 
+    padding-right: 8%;
+}
+
+#button {
+    --border-radius: 50% !important;  
+    width: 60px;
+    height: 60px;
+    --padding-top: 30px;
+    --padding-bottom: 30px;
+    --padding-end: 13px;
+    --padding-start: 13px;
+  }
+  
+.seperate{
+    display: flex;
+}
+
+.empty-border{
+    --border-style: none;
+}

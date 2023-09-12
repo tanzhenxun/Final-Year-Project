@@ -1,0 +1,7 @@
+{
+    "/api": {
+      "target": "http://w3.kynoci.com/",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }

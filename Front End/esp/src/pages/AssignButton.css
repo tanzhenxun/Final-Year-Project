@@ -1,0 +1,89 @@
+.seperate{
+    display: flex;
+}
+
+
+.center-content {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .center-content h1,
+  .center-content p {
+    margin: 1rem;
+  }
+  
+  .center-content img {
+    max-width: 80%;
+    max-height: 50%;
+  }
+
+  .slide-navigation {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .slide-navigation ion-button {
+    --padding-start: 0.5rem;
+    --padding-end: 0.5rem;
+  }
+  
+  .btn-padding{
+    padding-left: 80%;
+  }
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .relative {
+    position: relative;
+  }
+  .absolute {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+  .showOnTop {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+  }
+  .vhvw {
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+  .info-btn{
+    display: contents;
+  }
+
+  .assign_btn-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #010101;
+  }

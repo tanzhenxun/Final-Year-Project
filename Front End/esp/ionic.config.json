@@ -1,0 +1,13 @@
+{
+  "name": "esp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "proxies": [{
+    "path": "/api",
+    "proxyUrl": "http://w3.kynoci.com:8000"
+  }]
+
+
+}

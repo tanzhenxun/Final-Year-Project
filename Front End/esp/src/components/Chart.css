@@ -1,0 +1,30 @@
+.segment-sm{
+    max-width: 40%;
+    margin: 5% auto ;
+    justify-items: center;
+}
+.graph_seg_button {
+    --indicator-box-shadow: transparent!important;
+    border-radius: 0.5rem !important;
+    margin-left: 2px;
+    margin-right: 2px;
+    --background:white;
+    --color:#2d2e87;
+    --background-checked: linear-gradient(to right, #4244c1, #01a6ff)!important;
+    --color-checked: white;
+    --indicator-color : transparent!important;
+    font-size: 12px;
+    min-height: 0px;
+    align-items: center;
+    width: auto;
+}
+.graph_margin{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+@media (max-width: 640px) {
+    .segment-sm {
+      max-width: 90%;
+    }
+  }
